@@ -4,4 +4,10 @@ extrinsic_t: [ 0.04165, 0.02326, -0.0284 ]
 extrinsic_R: [ 1, 0, 0,
                0, 1, 0,
                0, 0, 1 ]
+image:
+  fx:
+  fy:
+  cx:
+  cy:
+filter_size: 
                
