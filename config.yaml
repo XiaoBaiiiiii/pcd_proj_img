@@ -1,13 +1,20 @@
-pcd_file:
-img_file: 
-extrinsic_t: [ 0.04165, 0.02326, -0.0284 ]
-extrinsic_R: [ 1, 0, 0,
-               0, 1, 0,
-               0, 0, 1 ]
-image:
-  fx:
-  fy:
-  cx:
-  cy:
-filter_size: 
+pcd_file: /home/zyjqr/dataset/livox-camera-calibration/test/1.pcd
+img_file: /home/zyjqr/dataset/livox-camera-calibration/test/1.png
+t_cl: [ 0,0,0]
+rot_cl: [ 0, -1, 0,
+          0, 0, -1,
+          1, 0, 0 ]
+camera:
+  fx: 612.3761
+  fy: 611.7247
+  cx: 315.0588
+  cy: 262.4455
+filter_size: 0.2
+# projrction
+max_proj_scale_x: 5;
+max_proj_scale_y: 5;
+min_proj_scale_x: 1;
+min_proj_scale_y: 1;
+min_proj_dist: 0.2;
+max_proj_dist: 40;
                
