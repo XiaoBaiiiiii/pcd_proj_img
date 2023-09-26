@@ -11,10 +11,10 @@ camera:
   cy: 262.4455
 filter_size: 0.2
 # projrction
-max_proj_scale_x: 5;
-max_proj_scale_y: 5;
-min_proj_scale_x: 1;
-min_proj_scale_y: 1;
-min_proj_dist: 0.2;
-max_proj_dist: 40;
+max_proj_scale_x: 5
+max_proj_scale_y: 5
+min_proj_scale_x: 1
+min_proj_scale_y: 1
+min_proj_dist: 0.2
+max_proj_dist: 40
                

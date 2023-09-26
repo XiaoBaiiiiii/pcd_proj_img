@@ -5,7 +5,7 @@
 #include <Eigen/Dense>
 #include <boost/array.hpp>
 
-namespace pcd_proj_img {
+namespace common {
   
 template <typename S>
 inline Eigen::Matrix<S, 3, 1> VecFromArray(const std::vector<double> &v) {
@@ -31,7 +31,7 @@ inline Eigen::Matrix<S, 3, 3> MatFromArray(const boost::array<S, 9> &v) {
     return m;
 }
 
-}
+} // namespace common
 
 
 
